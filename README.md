@@ -40,9 +40,10 @@
 
 ## Структура файлов и минимальные зависимости.
 В связи с выбранной архитектурой проекта было принято решение о файловой структуре проекта и минимальных зависимостях.
-training_website/
+```markdown
+training_project/
 ├── manage.py
-├── training_website/  # главный проект (настройки)
+├── training_project/  # главный проект (настройки)
 │   ├── __init__.py
 │   ├── settings.py
 │   ├── urls.py
@@ -96,6 +97,7 @@ training_website/
 │   └── permissions.py
 ├── static/
 └── templates/
+```
 
 ## Текущий статус (выполненная работа)
 
